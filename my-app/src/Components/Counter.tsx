@@ -7,7 +7,7 @@ interface StateType {
 }
 
 interface ActionType{
-    type : string
+    type : "Increment" | "Decrement"
 }
 
 
