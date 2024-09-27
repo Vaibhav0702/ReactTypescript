@@ -8,7 +8,7 @@ import React from 'react'
 
 interface PropsType {
     name: string,
-    age: number,
+    age ?: number,   // ? is set age as optional
     isEligible: boolean
 }
 
