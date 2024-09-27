@@ -12,3 +12,4 @@ export default function Parent(props : ParentType) {
     }</div>
   )
 }
+
