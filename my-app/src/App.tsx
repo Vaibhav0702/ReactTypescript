@@ -8,6 +8,7 @@ import LogLevel from './Components/LogLevel';
 import Parent from './Components/Parent';
 import Child from './Components/Child';
 import SignIn from './Components/SignIn';
+import Content from './Context/Content';
 
 function App() {
 
@@ -51,6 +52,10 @@ function App() {
       --------------------------------------------------------------------
 
       <SignIn />
+
+      -------------------------------------------------------------------
+
+      <Content/>
 
     </div>
   );
