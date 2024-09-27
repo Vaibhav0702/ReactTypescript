@@ -2,7 +2,7 @@ import React from 'react'
 
 
 interface ParentType {
-    children : React.ReactNode
+    children : React.ReactNode  // accept component as prop
 }
 
 export default function Parent(props : ParentType) {
