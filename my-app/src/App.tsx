@@ -7,6 +7,7 @@ import Teams from './Components/Teams';
 import LogLevel from './Components/LogLevel';
 import Parent from './Components/Parent';
 import Child from './Components/Child';
+import SignIn from './Components/SignIn';
 
 function App() {
 
@@ -45,6 +46,11 @@ function App() {
       ---------------------------------------------------------------------
 
       <Parent  children={<Child></Child>}  />
+
+
+      --------------------------------------------------------------------
+
+      <SignIn />
 
     </div>
   );
